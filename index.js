@@ -23,7 +23,7 @@ try{
     await client.connect();
    const partsCollection = client.db("computer-parts").collection("parts");
   
-   const reviewCollection = client.db("computers_services").collection("service");
+   const reviewCollection = client.db("computer-parts2").collection("services");
 
 //    all parts show
 app.get('/part' ,async(req ,res) =>{
