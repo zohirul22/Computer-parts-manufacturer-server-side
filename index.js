@@ -21,7 +21,8 @@ app.get('/', (req, res) => {
 async function run(){
 try{
     await client.connect();
-   const partsCollection = client.db("computers_parts").collection("parts");
+  //  const partsCollection = client.db("computers_parts").collection("parts");
+   const partsCollection = client.db("shahin").collection("parts");
    const reviewCollection = client.db("computers_services").collection("service");
 
 //    all parts show
