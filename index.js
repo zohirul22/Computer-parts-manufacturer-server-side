@@ -25,7 +25,7 @@ try{
    const partsCollection = client.db("computer-parts").collection("parts");
   
    const reviewCollection = client.db("computer-parts2").collection("services");
-  //  const userCollection = client.db("computer-parts2").collection("users");
+ 
 
 //    all parts show
 app.get('/part' ,async(req ,res) =>{
